@@ -1,0 +1,13 @@
+/home/nathanminter1992/myApp/bin/Debug/netcoreapp3.1/myApp
+/home/nathanminter1992/myApp/bin/Debug/netcoreapp3.1/myApp.deps.json
+/home/nathanminter1992/myApp/bin/Debug/netcoreapp3.1/myApp.runtimeconfig.json
+/home/nathanminter1992/myApp/bin/Debug/netcoreapp3.1/myApp.runtimeconfig.dev.json
+/home/nathanminter1992/myApp/bin/Debug/netcoreapp3.1/myApp.dll
+/home/nathanminter1992/myApp/bin/Debug/netcoreapp3.1/myApp.pdb
+/home/nathanminter1992/myApp/obj/Debug/netcoreapp3.1/myApp.csprojAssemblyReference.cache
+/home/nathanminter1992/myApp/obj/Debug/netcoreapp3.1/myApp.AssemblyInfoInputs.cache
+/home/nathanminter1992/myApp/obj/Debug/netcoreapp3.1/myApp.AssemblyInfo.cs
+/home/nathanminter1992/myApp/obj/Debug/netcoreapp3.1/myApp.csproj.CoreCompileInputs.cache
+/home/nathanminter1992/myApp/obj/Debug/netcoreapp3.1/myApp.dll
+/home/nathanminter1992/myApp/obj/Debug/netcoreapp3.1/myApp.pdb
+/home/nathanminter1992/myApp/obj/Debug/netcoreapp3.1/myApp.genruntimeconfig.cache
