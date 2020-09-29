@@ -1,0 +1,10 @@
+{
+  "Operations": [
+    {
+      "Number1": 234.0,
+      "Number2": 8755.0,
+      "Operation": "Multiply",
+      "Result": 2048670.0
+    }
+  ]
+}

@@ -11,3 +11,5 @@
 /home/nathanminter1992/myApp/obj/Debug/netcoreapp3.1/myApp.dll
 /home/nathanminter1992/myApp/obj/Debug/netcoreapp3.1/myApp.pdb
 /home/nathanminter1992/myApp/obj/Debug/netcoreapp3.1/myApp.genruntimeconfig.cache
+/home/nathanminter1992/myApp/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/home/nathanminter1992/myApp/obj/Debug/netcoreapp3.1/myApp.csproj.CopyComplete

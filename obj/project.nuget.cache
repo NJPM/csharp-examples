@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "q2wzSPouyqrfbTrayjF04jj9RRxlRm7xv1M3QAsZCOZSKBSlDpIyj6ekUwTPQu5DBZRaB+K3935eSUR2qOS02w==",
+  "dgSpecHash": "hXJV5raWzpZAF/bZRt1VLCAf6yW4mugj7vgR6EK0oGUSDsI3cqh7iWqCfMfJ6cOnWylhxziKbaIo4RuvvtnpYQ==",
   "success": true,
   "projectFilePath": "/home/nathanminter1992/myApp/myApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/nathanminter1992/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

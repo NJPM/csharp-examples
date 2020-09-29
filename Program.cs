@@ -1,37 +1,8 @@
 ﻿using System;
+using CalculatorLibrary;
 
 namespace myApp
 {
-    class Calculator
-    {
-        public static double Calculation(double num1, double num2, string op)
-        {
-            double result = double.NaN;
-
-            switch (op) {
-                case "a":
-                    result = num1 + num2;
-                    break;
-                case "s":
-                    result = num1 - num2;
-                    break;
-                case "m":
-                    result = num1 * num2;
-                    break;
-                case "d":
-                    while (num2 == 0) {
-                        Console.WriteLine("Can't divide by 0, enter another denominator:");
-                        num2 = Convert.ToDouble(Console.ReadLine());
-                    }
-                    result = num1 / num2;
-                    break;
-                default:
-                    Console.WriteLine($"Error: {op} is not an accepted operator.");
-                    break;                
-            }
-            return result;
-        }
-    }
     class Program
     {
         static void Main(string[] args)
@@ -41,6 +12,7 @@ namespace myApp
             // Title
             Console.WriteLine("Simple C# Calculator");
             Console.WriteLine("--------------------");
+            Calculator calculator = new Calculator();
 
             while (!endApp) {
                 string numInput1 = "";
@@ -93,11 +65,11 @@ namespace myApp
 
                 // Calc
                 try {
-                    result = Calculator.Calculation(cleanNum1, cleanNum2, op);
+                    result = calculator.Calculation(cleanNum1, cleanNum2, op);
                     if (double.IsNaN(result)) {
                         Console.WriteLine("Mathematical error in calculation, try another calculation.");
                     } else {
-                        Console.WriteLine($"{cleanNum1} {opSymbol} {cleanNum2} = " + "{0:0.##}", result);
+                        Console.WriteLine($"{cleanNum1} {opSymbol} {cleanNum2} = {result}");
                     }
                 }
                 catch (Exception e) {
@@ -109,6 +81,7 @@ namespace myApp
                 Console.WriteLine("Restart calculator? y/n");
                 if (Console.ReadLine() != "y") endApp = true;
                 }
+                calculator.Finish();
                 return;
         }
     }
